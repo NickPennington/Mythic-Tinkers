@@ -20,6 +20,13 @@ public class MTModifierHooks {
                     PickupItemModifierHook.AllMerger::new,
                     (tool, modifier, player, slot, stacks) -> {});
 
+    public static final ModuleHook<DestroySpeedModifierHook> DESTROY_SPEED =
+            ModifierHooks.register(
+                    MTUtil.location("destroy_speed"),
+                    DestroySpeedModifierHook.class,
+                    DestroySpeedModifierHook.AllMerger::new,
+                    (tool, modifier, player, state, baseSpeed, correctForDrops, level, pos) -> baseSpeed);
+
     public static final ModuleHook<EmptySwingModifierHook> EMPTY_SWING =
             ModifierHooks.register(
                     MTUtil.location("empty_swing"),

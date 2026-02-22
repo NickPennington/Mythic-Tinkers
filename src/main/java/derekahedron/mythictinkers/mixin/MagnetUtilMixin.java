@@ -18,8 +18,8 @@ public class MagnetUtilMixin {
     @ModifyVariable(
             method = "tickMagnetism",
             at = @At("STORE"),
-            ordinal = 0,
-            remap = false)
+            remap = false,
+            name = "attracts")
     private static Stream<BlockPos> getNearbyAttractingEntities(Stream<BlockPos> positions, Entity entity) {
         List<Player> attractingPlayers = MTUtil.getPlayersInRadius(
                 entity, 5,
@@ -33,8 +33,7 @@ public class MagnetUtilMixin {
     @ModifyVariable(
             method = "tickMagnetism",
             at = @At("STORE"),
-            ordinal = 1,
-            remap = false)
+            remap = false, name = "repels")
     private static Stream<BlockPos> getNearbyRepellingEntities(Stream<BlockPos> positions, Entity entity) {
         List<Player> repellingPlayers = MTUtil.getPlayersInRadius(
                 entity, 5,

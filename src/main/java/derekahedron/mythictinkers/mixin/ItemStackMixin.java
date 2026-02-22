@@ -15,9 +15,10 @@ public class ItemStackMixin {
 
     @Inject(
             method = "is(Lnet/minecraft/tags/TagKey;)Z",
-            at = @At("HEAD"),
+            at = @At("RETURN"),
             cancellable = true)
     public void is(TagKey<Item> tag, CallbackInfoReturnable<Boolean> cir) {
+        if (cir.getReturnValue()) return;
         ItemStack stack = (ItemStack) (Object) this;
         if (tag == ACTagRegistry.MAGNETIC_ITEMS && MTUtil.isMagneticTool(stack)) {
             cir.setReturnValue(true);
