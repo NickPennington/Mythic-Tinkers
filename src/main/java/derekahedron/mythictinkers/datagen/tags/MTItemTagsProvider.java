@@ -4,7 +4,6 @@ import derekahedron.invexp.item.InvExpItemTags;
 import derekahedron.mythictinkers.MythicTinkers;
 import derekahedron.mythictinkers.item.MTItemTags;
 import derekahedron.mythictinkers.item.MTItems;
-import derekahedron.mythictinkers.util.CompatUtil;
 import derekahedron.mythictinkers.util.ForgeTags;
 import com.github.alexmodguy.alexscaves.server.block.ACBlockRegistry;
 import com.github.alexmodguy.alexscaves.server.item.ACItemRegistry;
@@ -13,6 +12,7 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
 import net.minecraft.data.tags.TagsProvider;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.Tags;
@@ -225,7 +225,7 @@ public class MTItemTagsProvider extends ItemTagsProvider {
                 .addTag(ForgeTags.Items.GUMBRONZE_BLOCKS);
 
         tag(TinkerTags.Items.HELD)
-                .addOptional(CompatUtil.tinkersKatanas("katana"));
+                .addOptional(new ResourceLocation("tinkers_katanas:katana"));
 
         tag(ACTagRegistry.MAGNETIC_ITEMS)
                 .addOptionalTag(TinkerMaterials.slimesteel.getIngotTag())

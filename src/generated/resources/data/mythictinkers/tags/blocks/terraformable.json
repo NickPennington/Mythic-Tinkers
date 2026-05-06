@@ -20,6 +20,11 @@
     "minecraft:blue_ice",
     "minecraft:calcite",
     "minecraft:smooth_basalt",
+    "minecraft:netherrack",
+    "minecraft:crimson_nylium",
+    "minecraft:warped_nylium",
+    "minecraft:basalt",
+    "minecraft:blackstone",
     "minecraft:end_stone",
     "minecraft:obsidian",
     "minecraft:crying_obsidian",
@@ -50,6 +55,138 @@
     },
     {
       "id": "betterend:brimstone",
+      "required": false
+    },
+    {
+      "id": "betterend:cave_moss",
+      "required": false
+    },
+    {
+      "id": "betterend:jungle_moss",
+      "required": false
+    },
+    {
+      "id": "betterend:amber_moss",
+      "required": false
+    },
+    {
+      "id": "betterend:shadow_grass",
+      "required": false
+    },
+    {
+      "id": "betterend:violecite",
+      "required": false
+    },
+    {
+      "id": "betterend:flavolite",
+      "required": false
+    },
+    {
+      "id": "betterend:umbralith",
+      "required": false
+    },
+    {
+      "id": "betterend:rutiscus",
+      "required": false
+    },
+    {
+      "id": "betterend:aurora_crystal",
+      "required": false
+    },
+    {
+      "id": "betterend:hydrothermal_vent",
+      "required": false
+    },
+    {
+      "id": "betterend:smaragdant_crystal_shard",
+      "required": false
+    },
+    {
+      "id": "betterend:chorus_nylium",
+      "required": false
+    },
+    {
+      "id": "betterend:pallidium_tiny",
+      "required": false
+    },
+    {
+      "id": "betterend:pallidium_thin",
+      "required": false
+    },
+    {
+      "id": "betterend:azure_jadestone",
+      "required": false
+    },
+    {
+      "id": "betterend:virid_jadestone",
+      "required": false
+    },
+    {
+      "id": "betterend:sandy_jadestone",
+      "required": false
+    },
+    {
+      "id": "betterend:end_stone_stalactite",
+      "required": false
+    },
+    {
+      "id": "betterend:end_stone_stalactite_cavemoss",
+      "required": false
+    },
+    {
+      "id": "betterend:emerald_ice",
+      "required": false
+    },
+    {
+      "id": "betterend:dense_emerald_ice",
+      "required": false
+    },
+    {
+      "id": "betterend:ancient_emerald_ice",
+      "required": false
+    },
+    {
+      "id": "betternether:basalt_stalactite",
+      "required": false
+    },
+    {
+      "id": "betternether:netherrack_stalactite",
+      "required": false
+    },
+    {
+      "id": "betternether:blackstone_stalactite",
+      "required": false
+    },
+    {
+      "id": "betternether:bone_stalactite",
+      "required": false
+    },
+    {
+      "id": "betternether:glowstone_stalactite",
+      "required": false
+    },
+    {
+      "id": "betternether:nether_moss",
+      "required": false
+    },
+    {
+      "id": "betternether:nether_mycelium",
+      "required": false
+    },
+    {
+      "id": "betternether:soul_sandstone",
+      "required": false
+    },
+    {
+      "id": "betternether:mushroom_grass",
+      "required": false
+    },
+    {
+      "id": "betternether:ceiling_mushrooms",
+      "required": false
+    },
+    {
+      "id": "betternether:swampland_grass",
       "required": false
     },
     {
@@ -206,6 +343,86 @@
     },
     {
       "id": "scguns:phosphorite",
+      "required": false
+    },
+    {
+      "id": "tconstruct:small_earth_slime_crystal_bud",
+      "required": false
+    },
+    {
+      "id": "tconstruct:medium_earth_slime_crystal_bud",
+      "required": false
+    },
+    {
+      "id": "tconstruct:large_earth_slime_crystal_bud",
+      "required": false
+    },
+    {
+      "id": "tconstruct:earth_slime_crystal_cluster",
+      "required": false
+    },
+    {
+      "id": "tconstruct:earth_slime_crystal_block",
+      "required": false
+    },
+    {
+      "id": "tconstruct:small_sky_slime_crystal_bud",
+      "required": false
+    },
+    {
+      "id": "tconstruct:medium_sky_slime_crystal_bud",
+      "required": false
+    },
+    {
+      "id": "tconstruct:large_sky_slime_crystal_bud",
+      "required": false
+    },
+    {
+      "id": "tconstruct:sky_slime_crystal_cluster",
+      "required": false
+    },
+    {
+      "id": "tconstruct:sky_slime_crystal_block",
+      "required": false
+    },
+    {
+      "id": "tconstruct:small_ichor_slime_crystal_bud",
+      "required": false
+    },
+    {
+      "id": "tconstruct:medium_ichor_slime_crystal_bud",
+      "required": false
+    },
+    {
+      "id": "tconstruct:large_ichor_slime_crystal_bud",
+      "required": false
+    },
+    {
+      "id": "tconstruct:ichor_slime_crystal_cluster",
+      "required": false
+    },
+    {
+      "id": "tconstruct:ichor_slime_crystal_block",
+      "required": false
+    },
+    {
+      "id": "tconstruct:small_ender_slime_crystal_bud",
+      "required": false
+    },
+    {
+      "id": "tconstruct:medium_ender_slime_crystal_bud",
+      "required": false
+    },
+    {
+      "id": "tconstruct:large_ender_slime_crystal_bud",
+      "required": false
+    },
+    {
+      "id": "tconstruct:ender_slime_crystal_cluster",
+      "required": false
+    },
+    {
+      "id": "tconstruct:ender_slime_crystal_block",
       "required": false
     },
     {

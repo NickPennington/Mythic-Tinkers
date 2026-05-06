@@ -1,5 +1,6 @@
 package derekahedron.mythictinkers.util;
 
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.FluidTags;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
@@ -134,36 +135,36 @@ public class ForgeTags {
 
     public static class Fluids {
         public static final TagKey<Fluid> STYX =
-                FluidTags.create(CompatUtil.forge("styx"));
+                FluidTags.create(new ResourceLocation("forge:styx"));
 
         public static final TagKey<Fluid> MOLTEN_SCARLET_NEODYMIUM =
-                FluidTags.create(CompatUtil.forge("molten_scarlet_neodymium"));
+                FluidTags.create(new ResourceLocation("forge:molten_scarlet_neodymium"));
 
         public static final TagKey<Fluid> MOLTEN_AZURE_NEODYMIUM =
-                FluidTags.create(CompatUtil.forge("molten_azure_neodymium"));
+                FluidTags.create(new ResourceLocation("forge:molten_azure_neodymium"));
 
         public static final TagKey<Fluid> MOLTEN_BYZANTIUM_NEODYMIUM =
-                FluidTags.create(CompatUtil.forge("molten_byzantium_neodymium"));
+                FluidTags.create(new ResourceLocation("forge:molten_byzantium_neodymium"));
 
         public static final TagKey<Fluid> MOLTEN_TECTELLUS =
-                FluidTags.create(CompatUtil.forge("molten_tectellus"));
+                FluidTags.create(new ResourceLocation("forge:molten_tectellus"));
 
         public static final TagKey<Fluid> MOLTEN_ELEMENT_122 =
-                FluidTags.create(CompatUtil.forge("molten_element_122"));
+                FluidTags.create(new ResourceLocation("forge:molten_element_122"));
 
         public static final TagKey<Fluid> MOLTEN_AURICHALCUM =
-                FluidTags.create(CompatUtil.forge("molten_aurichalcum"));
+                FluidTags.create(new ResourceLocation("forge:molten_aurichalcum"));
 
         public static final TagKey<Fluid> MOLTEN_DESOLUM =
-                FluidTags.create(CompatUtil.forge("molten_desolum"));
+                FluidTags.create(new ResourceLocation("forge:molten_desolum"));
 
         public static final TagKey<Fluid> MOLTEN_PROSPRUM =
-                FluidTags.create(CompatUtil.forge("molten_prosprum"));
+                FluidTags.create(new ResourceLocation("forge:molten_prosprum"));
 
         public static final TagKey<Fluid> EARTHEN_GUM =
-                FluidTags.create(CompatUtil.forge("earthen_gum"));
+                FluidTags.create(new ResourceLocation("forge:earthen_gum"));
 
         public static final TagKey<Fluid> MOLTEN_GUMBRONZE =
-                FluidTags.create(CompatUtil.forge("molten_gumbronze"));
+                FluidTags.create(new ResourceLocation("forge:molten_gumbronze"));
     }
 }

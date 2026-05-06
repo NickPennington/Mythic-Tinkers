@@ -21,37 +21,37 @@ public class MTMaterialDataProvider extends AbstractMaterialDataProvider {
         addMaterial(MTMaterialIds.SCARLET_NEODYMIUM,
                 2,
                 30,
-                true);
+                false);
 
         addMaterial(MTMaterialIds.AZURE_NEODYMIUM,
                 2,
                 31,
-                true);
+                false);
 
         addMaterial(MTMaterialIds.BYZANTIUM_NEODYMIUM,
                 5,
                 0,
-                true);
+                false);
 
         addMaterial(MTMaterialIds.TECTELLUS,
                 5,
                 5,
-                true);
+                false);
 
         addMaterial(MTMaterialIds.ELEMENT_122,
                 5,
                 10,
-                true);
+                false);
 
         addMaterial(MTMaterialIds.AURICHALCUM,
                 5,
                 15,
-                true);
+                false);
 
         addMaterial(MTMaterialIds.DESOLUM,
                 4,
                 30,
-                true);
+                false);
 
         addMaterial(MTMaterialIds.SHADOW_SILK,
                 2,
@@ -61,11 +61,11 @@ public class MTMaterialDataProvider extends AbstractMaterialDataProvider {
         addMaterial(MTMaterialIds.PROSPRUM,
                 5,
                 20,
-                true);
+                false);
 
         addMaterial(MTMaterialIds.GUMBRONZE,
                 5,
                 25,
-                true);
+                false);
     }
 }

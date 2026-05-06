@@ -71,7 +71,7 @@ public class MTMaterialRecipeProvider extends RecipeProvider implements IMateria
                 MTFluidHolders.MOLTEN_BYZANTIUM_NEODYMIUM.fluidObject,
                 MATERIALS_FOLDER);
 
-        // Tecetellus
+        // Tectellus
         metalMaterialRecipe(
                 consumer,
                 MTMaterialIds.TECTELLUS,
