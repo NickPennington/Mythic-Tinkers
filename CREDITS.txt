@@ -1,4 +1,6 @@
 This code is operated by Derekahedron.
 
-Special thanks to slimeknights and alexthe666 for their work on TInkers Construct and Alex's Caves respectively.
+Special thanks to slimeknights and alexthe666 for their work on Tinkers Construct and Alex's Caves respectively.
 Without them, there would be no "Mythic Tinkers"
+
+Thanks to feiqiu25 for the Chinese translation
